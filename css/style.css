@@ -37,8 +37,8 @@ body{
 }
 .conteiner{
     display: inline-block;
-    width: 1270px;
-    background-color: red;
+    width: 1200px;
+    
 }
 .header ul{
     list-style: none;
