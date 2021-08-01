@@ -40,7 +40,9 @@ body{
     width: 1200px;
     
 }
-.header ul{
+ul{
+
+    text-decoration: none;
     list-style: none;
 
 }
@@ -50,7 +52,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--title-text-color) ;
     text-decoration: none;
@@ -69,9 +71,10 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
+    text-decoration: none;
     
 }
 .item-open:focus, 
@@ -90,9 +93,11 @@ body{
 .contact-link{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    text-decoration: none;
+    
 }
 .contact-link:hover,
 .contact-link:focus{
@@ -100,41 +105,49 @@ body{
 }
 /* main */
 .main-top{
+    background-color: var(--secondary-bg-color);
+}
+.main-text{
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    background-color: var(--secondary-bg-color);
    
-}
-.main-text{
+   
     color: #fff;
    
 }
 .buton-top{
-    display: inline-block;
-    padding: 11px 32px;
-    border-radius: 4px;
-    min-width: 300px;
+
+
+    position: absolute;
+    width: 136px;
+    height: 30px;
+    left: 732px;
+    top: 440px;
+    
+    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    letter-spacing: 0.06em;
-    background-color: var(--accent-color);
-    color: #fff;
+    line-height: 1.87;
+    /* identical to box height, or 187% */
     
-
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
 }
 .sidebar-list{
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     list-style: none;
@@ -148,7 +161,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 
 
@@ -157,7 +170,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -183,7 +196,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
@@ -192,7 +205,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
@@ -206,10 +219,10 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #fff;
-
+    text-decoration: none;
 }
 .logo-footer{
     color: var(--accent-color);;
@@ -219,7 +232,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
@@ -227,17 +240,17 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-
+    text-decoration: none;
 }
 /* портфолио */
 .btn{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color)
@@ -246,7 +259,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color)
 }
@@ -254,7 +267,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color)
 }
