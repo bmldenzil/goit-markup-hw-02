@@ -123,25 +123,20 @@ ul{
 .buton-top{
 
 
-    position: absolute;
-    width: 136px;
-    height: 30px;
-    left: 732px;
-    top: 440px;
-    
-    font-family: Roboto;
+    text-decoration: none;
+    display: inline-block;
+
+    border-radius: 4px;
+    min-width: 300px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
-    /* identical to box height, or 187% */
-    
-    display: flex;
-    align-items: center;
+
     text-align: center;
-    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: #fff;
     
-    color: #FFFFFF;
 }
 .sidebar-list{
     font-style: normal;
@@ -154,6 +149,12 @@ ul{
 
 }
 .sidebar-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--title-text-color);
 
 }
@@ -163,7 +164,7 @@ ul{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
+    text-transform: none;
 
 }
 .image-tutle{
@@ -183,6 +184,12 @@ ul{
 }
 /* mambers list */
 .mambers-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
     
     color: var(--title-text-color);
 
@@ -216,6 +223,7 @@ ul{
 
 }
 .logo-one-footer{
+    font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -246,15 +254,22 @@ ul{
     text-decoration: none;
 }
 /* портфолио */
+
 .btn{
+    
+
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color)
+
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    border-radius: 4px;
 }
+
 .port-item{
     font-style: normal;
     font-weight: bold;
