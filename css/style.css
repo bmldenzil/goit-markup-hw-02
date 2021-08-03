@@ -242,7 +242,7 @@ ul{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: #fff;
 }
 .footer-link{
     font-style: normal;
@@ -269,7 +269,12 @@ ul{
     background-color: #F5F4FA;
     border-radius: 4px;
 }
+.btn:hover,
+.btn:focus{
+    background-color: var(--accent-color);
+    color: #fff;
 
+}
 .port-item{
     font-style: normal;
     font-weight: bold;
